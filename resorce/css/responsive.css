@@ -1,0 +1,263 @@
+@media (max-width: 1199px){
+    html{
+        font-size: 56.5%;
+    }
+    .carouselArea .owl-carousel .item {
+        padding: 3rem;
+        width: 100%;
+        height: 25rem;
+    }
+    .carouselArea .owl-carousel .item p {
+        font-size: 1.4rem;
+    }
+    .carouselArea .owl-carousel .item span {
+        font-size: 1.3rem;
+    }
+
+    /* ! */
+    #myCarousel_2 #item img {
+        width: 34rem;
+        height: 34rem;
+        margin: 2rem auto 0;
+    }
+    /* * */
+
+    .gridItem{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto auto auto;
+        gap: 3rem;
+        height: 100rem;
+    }
+    .gridItem .itemOne {
+        height: 45rem;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .gridItem .itemThree img{
+        width: 100%;
+        height: auto;
+    }
+    .gridItem .itemFour{
+        width: 100%;
+        height: 20rem;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .gridItem .itemFive{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        width: 100%;
+        height: 20rem;
+    }
+    .gridItem .itemSix {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 100%;
+        height: 20rem;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+    .gridItem .itemSix .imgText{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media (max-width: 991px){
+    html {
+        font-size: 50.5%;
+    }
+    header{
+        height: 65vh;
+    }
+
+    /* *header area end */
+    #myCarousel_3 .item .imgText {
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px){
+    .customerReview .fa-quote-right{
+        bottom:15%;
+    }
+}
+
+@media (max-width: 768px){
+    html {
+        font-size: 46.5%;
+    }
+
+    header nav{
+        padding: 2rem 4rem;
+    }
+    header nav .menu{
+        width: 100%;
+        height: auto;
+        display: flex;
+        background: #7b87ce54;
+        -webkit-backdrop-filter: blur(0.5rem);
+        backdrop-filter: blur(0.5rem);
+        border-radius:2rem;
+        padding: 5rem;
+        position: absolute;
+        top: 10rem;
+        left:50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        -webkit-border-radius:2rem;
+        -moz-border-radius:2rem;
+        -ms-border-radius:2rem;
+        -o-border-radius:2rem;
+        opacity: 0;
+    }
+    header nav .menu ul{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    header nav .contact{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    header nav .resIcon{
+        display: block !important;
+    }
+    header nav .resIcon i{
+        font-size: 1.8rem;
+        color:#fff;
+        cursor: pointer;
+    }
+    /* *header end */
+
+    #myCarousel_2 .owl-nav .owl-prev span{
+        left: 6rem;
+    }
+    #myCarousel_2 .owl-nav .owl-next span{
+        right: 6rem;
+    }
+    /* * */
+
+    .gridItem .itemTwo img {
+        width: 100% !important;
+        height: 20rem !important;
+        margin-top: 0;
+    }
+    /* *leatest news area end */
+
+    .customerReview .fa-quote-left{
+        left:2rem;
+    }
+    .customerReview .fa-quote-right{
+        right:2rem;
+    }
+    #myCarousel_3 .item .imgText {
+        width: 100%;
+    }
+    /* *customerReview end */
+
+    .discountLine h3 {
+        margin-right: 10rem;
+    }
+}
+
+@media (max-width: 680px){
+    html {
+        font-size: 42.5%;
+    }
+}
+
+@media (max-width: 580px){
+    html {
+        font-size: 40.5%;
+    }
+
+    header{
+        height: 50vh;
+    }
+    header nav .menu{
+        width: 90%;
+        height: auto;
+        display: flex !important;
+    }
+    header nav .menu ul{
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+        display: block;
+        text-align: center;
+    }
+    header nav .menu ul li{
+        margin-bottom: 1rem;
+    }
+
+    /* !header area end */
+
+    #myCarousel_2 .owl-nav{
+        display: none;
+    }
+    /* *customer review end */
+
+    .discountLine button {
+        padding: 1rem 4rem;
+    }
+    .discountLine h3 {
+        margin-right: 4rem;
+    }
+}
+
+@media (max-width:480px){
+    html {
+        font-size: 38.5%;
+    }
+
+    .gridItem .itemTwo img {
+        width: 38% !important;
+        height: 20rem !important;
+        margin-top: 0;
+    }
+    .gridItem .itemSix .imgText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20rem;
+    }
+    .gridItem .itemSix img {
+        width: 38%;
+        margin-bottom: 0rem;
+    }
+    .gridItem .itemSix .textBox {
+        height: 20rem;
+    }
+
+    /* !Blog area end */
+    #myCarousel_3 .item .revText p {
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 0;
+    }
+    /* !customer review end */
+    .discountLine{
+        display: block;
+        text-align: center;
+    }
+    .discountLine h3{
+        margin: 0 0 2rem;
+    }
+}
+
+@media (max-width:380px){
+    html {
+        font-size: 36.5%;
+    }
+}
